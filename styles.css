@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+body{
+	margin: 0;
+	height: 100vh;
+	position: relative;
+}
+.box{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 200px;
+	background-color:lightblue;
+	border: 2px solid black;
+}
+.centered{
+	color: purple;
+	margin: 0;
+}
